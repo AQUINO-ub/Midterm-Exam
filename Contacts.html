@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquino's Creative MIDTERM EXAM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Aquino's Midterm Portfolio</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About Me</a>
+        <a href="Services.html">Services</a>
+        <a href="Media.html">Media</a>
+        <a href="Contacts.html">Contacts</a>
+    </nav>
+
+
+<main class="Home">
+    <section class="card">
+
+    <div class="Profile">
+        <img src="Photo/Pfp.jpg" alt="Profile Picture">
+    </div>
+    
+        <h1>Contact Details</h1>
+
+        <div class="ContactForm">
+            <form action="submit_form.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+                <label for="topic">Inquiry Topic:</label>
+                <select id="topic" name="topic" required>
+                    <option value="" disabled selected>--Select Inquiry Type--</option>
+                    <option value="web-design">Web Design</option>
+                    <option value="html-css">HTML/CSS Help</option>
+                    <option value="accessibility">Accessibility</option>
+                    <option value="other">Other...</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="How can I help you?" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer>@Developed by Aquino | HUMAN COMPUTER INTERACTION</footer>
+
+</body>
+</html>
